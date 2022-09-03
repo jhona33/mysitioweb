@@ -1,13 +1,12 @@
-body {
-    background-color: rgba(24, 24, 24, 0.9);
+body{
+    background-color: rgb(24, 24, 24, .9);
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
 }
-h1 {
-    font-family: 'Bebas Neue', cursive;
+h1{
     font-size: 9em;
     color: red;
+    font-family: 'Bebas Neue', 'cursive';
 }
-    
