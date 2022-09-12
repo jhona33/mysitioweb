@@ -1,20 +1,16 @@
 .left{
     text-align: left;
-    color: blue;
-    height: 10vh;
+    
 }
 .right{
     text-align: right;
-    color:aqua;
-    height: 10vh;
+    
 }
 .center{
     text-align: center;
-    color: blueviolet;
-    height: 10vh;
+    
 }
 .justify{
     text-align: justify;
-    color: aquamarine;
-    height: 10vh;
+
 }
