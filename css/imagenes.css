@@ -1,22 +1,22 @@
 
-.contenedor{
-    display:inline-flex;
+*{
+    margin: 0;
+    padding: 0;
 }
 .box{
-    height: 300px;
-    width: 400px;
-    margin: 10px;
+    display:inline-block;
+    width: 29%;
+    margin: 30px 1.5%;
+    vertical-align: top;
 
 }
 .img-100 {
     width: 100%;
-    display:inline;
+    
 }
-h1{
+h1, h2{
     text-align: center;
-}
-h2{
-    text-align: center;
+    padding: 5px;
 }
 p{
     text-align: justify;
