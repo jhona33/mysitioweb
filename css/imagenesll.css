@@ -5,9 +5,10 @@
 }
 .box{
     display:inline-block;
-    width: 300px;
+    width: 370px;
     margin: 30px;
     vertical-align: top;
+    padding: 30px;
 
 }
 .img-100{

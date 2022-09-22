@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.menu{
+    text-align: right;
+    background-color: rgb(85, 76, 76);
+    height: 70px;
+}
+.box{
+    display: inline-block;
+    padding-top:15px;
+    padding-bottom: 15px;
+    padding-right: 50px;
+    padding-left: 10px;
+    color: white;
+    font-size: 30px;
+}
