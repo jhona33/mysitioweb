@@ -1,14 +1,23 @@
+
+.contenedor{
+    display:inline-flex;
+}
+.box{
+    height: 300px;
+    width: 400px;
+    margin: 10px;
+
+}
 .img-100 {
-    width: 30%;
-    display: inline;
-    
+    width: 100%;
+    display:inline;
 }
 h1{
     text-align: center;
 }
-.titulo-galaxy{
-
+h2{
+    text-align: center;
 }
-.titulo-travel{
-   
+p{
+    text-align: justify;
 }
