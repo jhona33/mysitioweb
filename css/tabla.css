@@ -1,0 +1,29 @@
+.table-style{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+h1{
+    text-align: center;
+}
+th{
+    border: 1px solid black;
+    padding: 10px 12px;
+    background-color: rgb(127, 246, 255);
+}
+td{
+    border: 1px solid black;
+    padding: 10px 12px;
+    background-color: azure;
+    
+}
+table{
+    border-collapse: collapse;
+}
+.img{
+    width: 100px;
+}
+.ti{
+    text-align: center;
+}
