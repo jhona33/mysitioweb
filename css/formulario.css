@@ -1,6 +1,13 @@
 label{
     display: block;
 }
+form{
+    display: flex;
+    justify-content: center; 
+}
+h1{
+    text-align: center;
+}
 input[type="text"]{
     margin-bottom: 20px;
     padding: 7px;
