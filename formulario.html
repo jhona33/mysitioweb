@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=f, initial-scale=1.0">
+    <title>formulario</title>
+    <link rel="stylesheet" href="css/formulario.css">
+</head>
+<body>
+    <h1>Citas medicas</h1>
+    <form>
+        <fieldset>
+        <legend>Ingrese la informacion </legend>
+        <label>ingrese tipo de documento </label>
+        <select>
+            <option value="">registro civil</option>
+            <option value="">tarjeta de identidad</option>
+            <option value="">cedula de ciudadania</option>
+            <option value="">celuda de extranjeria </option>
+        </select>
+        <label> ingrese el numero de documento </label>
+        <input type="text" placeholder="Ingrese el numero de documento"> 
+        <label> ingrese su nombre </label>
+        <input type="text" placeholder="Ingrese su nombre">
+        <label > ingrese sus apellidos </label>
+        <input type="text" placeholder="Ingrese sus apellidos">
+        <label > ingrese su genero</label>
+        <input type="radio" name="Genero">Masculino <br>
+        <input type="radio" name="Genero">Femenino<br>
+        <input type="radio" name="Genero">Indeterminado <br>
+        <label> seleccione el dia de la cita </label>
+        <input type="checkbox" name="diacita" id="">Lunes<br>
+        <input type="checkbox" name="diacita" id="">Martes<br>
+        <input type="checkbox" name="diacita" id="">Miercoles<br>
+        <input type="checkbox" name="diacita" id="">Jueves<br>
+        <input type="checkbox" name="diacita" id="">Viernes<br>
+        <label >Observaciones</label>
+        <textarea name="" id="" cols="30" rows="10"></textarea><br>
+        <input type="submit" value="Enviar"><br>
+        <button>Confimar</button>
+    </fieldset>
+    </form>
+</body>
+</html>
