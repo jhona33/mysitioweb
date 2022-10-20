@@ -4,8 +4,15 @@ label{
 form{
     display: flex;
     justify-content: center; 
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+fieldset{
+    padding: 30px;
+    border: 2px solid rgb(196, 196, 232);
 }
 h1{
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
 input[type="text"]{
@@ -18,4 +25,7 @@ input[type="text"]{
 }
 input[type="text"]:focus{
     outline: none;
+}
+select{
+    padding: 5px;
 }
