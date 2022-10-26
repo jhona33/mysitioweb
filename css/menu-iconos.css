@@ -1,23 +1,60 @@
 
 ul{
+    width: 250px;
+    margin: 0;
+    padding-left: 5px;
     list-style: none;
     font-family: Arial, Helvetica, sans-serif;
+}
+hr{
+    background-color: #D9E2E8;
+    width: 216px;
+    margin-left: 12px;
+}
+li{
+    padding-top: 4px;
+    height: 100%;
+}
+.menu-boton{
+    margin: 20px 10px 30px;
+}
+.menu{
+    margin-top: 0px;
+    width: 240px;
+    height: 100vh;
 }
 a{
  text-decoration: none;
 }
-li{
-    margin: 20px;
+p{
+    margin: 0px 0px 0px 17px;
+    display: inline;
+    color: black;
 }
 .style-icono{
-    padding-right: 40px;
-    font-size: 30px;
+    color: #8796A1 ;
+    border-radius: 4px;
+    padding: 2px 8px;
+    font-size: 18px;
+}
+.nv{
+    height: 30px;
+    margin: 2px 0px ;
+    padding: 5px 8px;
+}
+.nv:hover, .menu-boton :hover{
+    cursor: pointer;
+    background-color: #E6EBEF;
+    text-decoration: none;
+    border-radius: 5px;
 }
 nav{
     background-color: white;
     position: fixed;
     top: 0;
     left: 0;
-    width: 350px;
+    width: 250px;
     height: 100vh;
+    font-family: 'TT Hoves Variable';
+    border-right: 1px solid #D9E2E8;
 }
