@@ -48,6 +48,9 @@ p{
     text-decoration: none;
     border-radius: 5px;
 }
+.nv:hover .style-icono{
+    color: #586269;
+}
 nav{
     background-color: white;
     position: fixed;
