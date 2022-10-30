@@ -1,0 +1,40 @@
+
+.bar-vertical{
+    display: inline-block;
+}
+li{
+    list-style: none;
+    padding: 20px;
+    margin: 5px;
+    background-color: rgb(87, 87, 86);
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9em;
+    color: white;
+    
+}
+li:hover{
+    background-color: rgb(64, 64, 64);
+    font-size: 0.9em;
+    cursor: pointer;
+}
+.bar-horizontal{
+    color: rgb(253, 253, 253);
+}
+.item-horizontal{
+    display: inline-block;
+    margin: 0;
+    background-color: rgb(253, 253, 253);
+    /* float: left; */
+    padding: 8px 10px;
+    border-right: 1px solid #fb5b04;
+    color: rgb(64, 64, 64);
+    border-radius: 0;
+    font-weight: 500;
+    font-size: 0.9em;
+}
+.item-horizontal:hover{
+    background-color: rgb(220, 220, 220);
+    color: rgb(64, 64, 64);
+}
+
