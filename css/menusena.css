@@ -4,7 +4,7 @@
 }
 li{
     list-style: none;
-    padding: 18px 20px;
+    padding: 20px;
     margin: 5px;
     background-color: rgb(87, 87, 86);
     border-radius: 5px;
@@ -22,16 +22,17 @@ li:hover{
     color: rgb(253, 253, 253);
 }
 .item-horizontal{
+    display: inline;
     display: inline-block;
     margin: 0;
     background-color: rgb(253, 253, 253);
-    float: left;
+    /* float: left; */
     padding: 8px 10px;
     border-right: 1px solid #fb5b04;
     color: rgb(64, 64, 64);
     border-radius: 0;
     font-weight: 500;
-    font-size: 0.9em;
+    /* font-size: 0.9em; */
 }
 .item-horizontal:hover{
     background-color: rgb(220, 220, 220);
