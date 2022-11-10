@@ -1,0 +1,57 @@
+/*estilos generales */
+*{
+    margin: 0;
+    padding: 0;
+}
+nav {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    background: darkcyan;
+
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: table;
+    position: absolute;
+    width: 100%;
+    background-color: rgb(19, 162, 233);
+    
+}
+nav a {
+    text-decoration: none;
+    display: block;
+    padding: 0 2em;
+    color: white;
+}
+/* menu primer nivel */
+nav > ul > li{
+    float: left;
+    width: 300px;
+    line-height: 70px;  
+}
+nav li{
+    position: relative;
+}
+nav li li {
+    
+    max-height: 0;
+    overflow: hidden;
+}
+nav li:hover > ul > li {
+    visibility: visible;
+    max-height: 500px;
+    overflow: visible;
+    border-bottom: 1px solid white;
+}
+
+nav ul ul ul {
+    top: 0%;
+    left: 101%;
+}
+nav li a:hover{
+    background-color: rgb(0, 106, 160);
+}
+i{
+    padding-left: 7px;
+}
